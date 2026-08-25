@@ -1,0 +1,22 @@
+:root {
+  --navy-950: #051a3b;
+  --navy-900: #082b61;
+  --navy-800: #0c3d7a;
+  --navy-700: #14549a;
+  --blue-50: #f2f7fc;
+  --orange: #f26522;
+  --orange-dark: #d94b0d;
+  --ink: #182234;
+  --muted: #5f6978;
+  --line: #dce3eb;
+  --surface: #ffffff;
+  --sand: #f7f5f1;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 8px 28px rgba(5, 26, 59, 0.08);
+  --shadow-lg: 0 22px 60px rgba(5, 26, 59, 0.16);
+  --container: 1180px;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+}
