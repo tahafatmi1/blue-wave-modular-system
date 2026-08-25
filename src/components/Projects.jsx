@@ -29,7 +29,7 @@ function Projects() {
             </figure>
           ))}
         </div>
-        <div className="projects__action"><a className="button button--outline" href="#contact">View All Projects <ArrowRight size={18} /></a></div>
+        <div className="projects__action"><a className="button button--outline" href="#contact">Discuss Your Project <ArrowRight size={18} /></a></div>
       </div>
     </section>
   );

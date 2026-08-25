@@ -38,7 +38,7 @@ function Services() {
               <div className="service-card__body">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <a href="#contact">View Collection <ArrowUpRight size={16} /></a>
+                <a href="#contact">Request Details <ArrowUpRight size={16} /></a>
               </div>
             </article>
           ))}
