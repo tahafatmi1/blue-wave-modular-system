@@ -6,17 +6,20 @@ import reception from '../assets/images/project-reception.webp';
 import conference from '../assets/images/project-conference.webp';
 import lounge from '../assets/images/project-lounge.webp';
 import storage from '../assets/images/project-storage.webp';
-import workstations from '../assets/images/project-workstations.webp';
+import accessories from '../assets/images/service-accessories.webp';
+import spacePlanning from '../assets/images/client-executive-office.webp';
+import installation from '../assets/images/service-installation.webp';
+import relocation from '../assets/images/service-relocation.webp';
 
 const services = [
   { title: 'Front Office Furniture', description: 'Create a polished first impression with reception desks and welcoming guest seating.', image: reception, icon: Building2 },
   { title: 'Conference Room Furniture', description: 'Purposeful tables and seating designed for collaboration and clear thinking.', image: conference, icon: UsersRound },
   { title: 'Lounge Furniture', description: 'Comfortable, refined pieces that turn shared areas into places people enjoy.', image: lounge, icon: Sofa },
   { title: 'Storage & Shelving Solutions', description: 'Keep everyday essentials organized with flexible, space-smart storage.', image: storage, icon: Boxes },
-  { title: 'Office Accessories', description: 'The finishing details that improve comfort, organization, and daily performance.', image: workstations, icon: LampDesk },
-  { title: 'Space Planning & Design', description: 'Thoughtful layouts that improve flow, focus, collaboration, and capacity.', image: workstations, icon: Ruler },
-  { title: 'Delivery & Installation', description: 'Careful coordination and professional setup from arrival to final placement.', image: reception, icon: PackageCheck },
-  { title: 'Move & Relocation Service', description: 'A practical, organized transition that keeps your team moving forward.', image: conference, icon: Truck },
+  { title: 'Office Accessories', description: 'The finishing details that improve comfort, organization, and daily performance.', image: accessories, icon: LampDesk },
+  { title: 'Space Planning & Design', description: 'Thoughtful layouts that improve flow, focus, collaboration, and capacity.', image: spacePlanning, icon: Ruler },
+  { title: 'Delivery & Installation', description: 'Careful coordination and professional setup from arrival to final placement.', image: installation, icon: PackageCheck },
+  { title: 'Move & Relocation Service', description: 'A practical, organized transition that keeps your team moving forward.', image: relocation, icon: Truck },
 ];
 
 function Services() {
@@ -32,7 +35,7 @@ function Services() {
           {services.map(({ title, description, image, icon: Icon }, index) => (
             <article className="service-card" key={title} style={{ '--delay': `${index * 50}ms` }}>
               <div className="service-card__media">
-                <img src={image} alt="" loading="lazy" />
+                <img src={image} alt={`${title} workspace solution`} loading="lazy" />
                 <span className="service-card__icon"><Icon size={23} /></span>
               </div>
               <div className="service-card__body">

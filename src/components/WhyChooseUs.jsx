@@ -1,5 +1,5 @@
 import { BadgeCheck, Compass, Handshake, SlidersHorizontal } from 'lucide-react';
-import workstations from '../assets/images/project-workstations.webp';
+import collaborationSpace from '../assets/images/why-collaboration.webp';
 
 const features = [
   { title: 'Quality Products', text: 'Commercial-grade furniture selected for performance, comfort, and lasting value.', icon: BadgeCheck },
@@ -26,7 +26,7 @@ function WhyChooseUs() {
           </div>
         </div>
         <div className="why__visual">
-          <img src={workstations} alt="Completed open-plan office workspace" loading="lazy" />
+          <img src={collaborationSpace} alt="Completed collaborative workspace with acoustic meeting pods" loading="lazy" />
           <div className="why__statement">
             <span>Built for productivity.</span>
             <strong>Designed for people.</strong>

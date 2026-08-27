@@ -1,16 +1,16 @@
 import { ArrowRight } from 'lucide-react';
-import reception from '../assets/images/project-reception.webp';
-import conference from '../assets/images/project-conference.webp';
-import lounge from '../assets/images/project-lounge.webp';
-import storage from '../assets/images/project-storage.webp';
 import workstations from '../assets/images/project-workstations.webp';
+import privateOffice from '../assets/images/project-private-office.webp';
+import trainingRoom from '../assets/images/project-training-room.webp';
+import workplaceCafe from '../assets/images/project-workplace-cafe.webp';
+import designStudio from '../assets/images/project-design-studio.webp';
 
 const projects = [
-  { title: 'Executive Reception', category: 'Front Office', image: reception },
-  { title: 'Leadership Boardroom', category: 'Conference', image: conference },
-  { title: 'Collaborative Lounge', category: 'Lounge', image: lounge },
-  { title: 'Integrated Storage', category: 'Storage', image: storage },
   { title: 'Open-Plan Workplace', category: 'Workstations', image: workstations },
+  { title: 'Private Executive Suite', category: 'Private Office', image: privateOffice },
+  { title: 'Flexible Training Room', category: 'Learning Space', image: trainingRoom },
+  { title: 'Workplace Café', category: 'Amenity Space', image: workplaceCafe },
+  { title: 'Agile Project Studio', category: 'Collaboration', image: designStudio },
 ];
 
 function Projects() {
